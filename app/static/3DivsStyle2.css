@@ -1,0 +1,66 @@
+/* 3DivsStyle2.css */
+
+/* Color Scheme
+#ede8e2		Linen 
+#556b75		Dim Gray
+#b1cac6		Silver/Green
+#f4a876		Light Salmon
+#bc3021		Fire Brick
+*/
+
+.nav_button {
+	/*Button Settings */
+	background-color: #bc3021;
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	/*Button Text Settings */
+	color: #f4a876;
+	font-style: helvetica;
+	font-size: 40px;
+	/*Layout Settings */
+	display: inline-block;
+	text-align: center;
+	box-shadow: 5px 5px 5px #888888;
+}
+/* Alter the button attributes when hovering over button */
+.nav_button:hover {
+	background-color: #f4a876;
+	color: #bc3021;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+#navigation_bar	{
+	background-color: #ede8e2;
+	width: 100%;
+	text-align: right;
+}
+
+#logout_button	{
+	/*Button Settings*/
+	background-color: #556b75;
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	/*Text Settings */
+	color: #b1cac6;
+	font-style: helvetica;
+	font-size: 40px;
+	/*Layout Settings*/
+	display: inline-block;
+	text-align: center;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#logout_button:hover {
+	background-color: #b1cac6;
+	color: #556b75;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+#website_name {
+	position: absolute;
+	left: 10px;
+	color: white;
+	text-alight: left;
+}
